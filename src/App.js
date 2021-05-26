@@ -2,38 +2,12 @@ import React from 'react';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import ContactMe from './components/ContactMe';
 import './components/pageFormat.css';
 
 
 export default class App extends React.Component {
-  constructor(props){
-            
-    super(props)
-    // this is the initial state
-    this.state = {
-      color: "",
-      colorOfBox1: "yellow",
-      colorOfBox2: "transparent",
-      colorOfBox3: "transparent",
-      colorOfBox4: "transparent"
 
-    }
-  }
-  changeColor= (newcolor ) => {
-    this.setState({color: newcolor}) 
-  }
-
-  changeColorOfBox = (id) => {
-    if( id == "board-1"){
-    this.setState({colorOfBox1: this.state.color}) 
-    } else if (id == "board-2"){
-      this.setState({colorOfBox2: this.state.color})
-    } else if (id == "board-3"){
-      this.setState({colorOfBox3: this.state.color})
-    } else if (id == "board-4"){
-      this.setState({colorOfBox4: this.state.color})
-    }
-  }
 
   
   render(){
@@ -47,7 +21,7 @@ export default class App extends React.Component {
 
           <Projects className = "content relcel" message = "These are some of my Projects"    color = {"grey"}> </Projects>
        
-          
+          <ContactMe className = "slider rel" color = "grey" message = "Have an Idea? Contact Me!"></ContactMe>
       
       </div>
 

@@ -30,7 +30,7 @@ function Home(props){
                         <img src={img} alt="FirstWebsite"></img>
                     </p>
                     <p >
-                        welcome1!
+                        welcome!
                     </p>
                    
               </div>

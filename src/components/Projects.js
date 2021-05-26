@@ -3,6 +3,7 @@ import './pageFormat.css';
 import img from './FirstWebsite1.png'
 
 
+
 function CommentText(props){
     return(
         <div >
@@ -13,6 +14,7 @@ function CommentText(props){
 function Projects(props){
 
     return(
+        
         <div            style = {{backgroundColor: props.color}}>
               {props.children}
               <div className = "slider1 aboutMe">
@@ -40,8 +42,8 @@ function Projects(props){
                                 <img src={img} alt="FirstWebsite"  style = {{width: '100%'}}></img>
                                     {/* <img src="ProjectPictures/FirstWebsite.png" alt="FirstWebsite" style = {{width: 100}}></img> */}
                                     <div class ="containerI">
-                                        <li><p>&lt</p></li>
-                                        <li class="myDIV"><a  href="CellOne/index.html" target="_blank">Visit My First Website!</a></li>
+                                        <li><p>~</p></li>
+                                        <li class="myDIV"><a  href="src/CellOne/index.html" target="_blank">Visit My First Website!</a></li>
                                         {/* <p class="hide"><li><p>/&gt</p></li></p> */}
                                     </div>
                                 </div>

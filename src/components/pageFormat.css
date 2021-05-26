@@ -81,6 +81,11 @@ font-size: 4vh;
   
 }
 
+.contacts {
+  font-size: large;
+  color: darkorange;
+}
+
 .rel {
     position: relative;
     height: 980px;
