@@ -23,6 +23,63 @@ font-size: 4vh;
     scroll-behavior:smooth;
     scroll-snap-type: y mandatory;
   }
+  .projectContainer{
+    height: 350vh;
+    /* width: 180vh; */
+    min-width: 50vh;
+    max-width: 180vh;
+/* 
+    min-height: 600vh;
+    max-height: 700vh; */
+    align-content: left;
+    background-color: rgb(44, 50, 105);
+    margin: 0 auto;
+  }
+  div.polaroid {
+    width: relative;
+    height: relative;
+    background-color: rgb(105, 67, 67);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  
+  }
+  .header{
+    color: rgb(160, 113, 43);
+    font-size: 1cm;
+    border-style: solid;
+    border-width: 40px;
+    border-color: rgb(44, 50, 105);
+}
+
+  .myDIV:hover + .hide {
+    display: block;
+    color: rgb(71, 216, 226);
+    display: inline-block;
+  }
+
+  .containerI {
+    text-align: center;
+    /* padding: 5px 10px; */
+    color:rgb(151, 115, 67);
+    /* display: inline-block; */
+    list-style-type: none;
+  }
+.containerI li {
+  display: inline-block;
+  font-size: 19px;
+}
+  
+  .block {
+    background: gray;
+    height: 461px;
+    width: 40%; /* This is the width of each cell */
+    float: left;
+    margin: 50px;
+    min-width: 420px;
+    max-width: 420px;
+   
+  
+}
 
 .rel {
     position: relative;
@@ -50,7 +107,32 @@ font-size: 4vh;
     right: 0;
   }
 
-  aboutMe{
-    background-color: rgb(37, 97, 77);
+  .aboutMe{
+    background-color: rgb(63, 104, 138);
    }
+
+   .content{
+    /* background-color: rgb(23, 107, 103); */
+    top: 0cm;
+    /* height:100%; */
+
+    height: fit-content;
+    background-color: rgb(63, 71, 146);
+    align-content: center;
+ 
+    overflow: hidden;
+
+    /* overflow: hidden; */
+
+  
+  }
+
+  .relcel{
+    position: relative;
+    height: 200%;
+    width: 100%;
+    top:0cm;
+    left: 0;
+    right: 0;
+  }
  
