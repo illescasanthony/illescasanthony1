@@ -9,28 +9,32 @@ function CommentText(props){
         </div>
     )
 }
-function Home(props){
+function AboutMe(props){
 
     return(
         <div
 
         style = {{backgroundColor: props.color}}
-        className = "container"
+        
         >
               {props.children}
-              <div className = "slider1 rel">
+              <div className = "slider1 aboutMe">
 
                         <p >
                         <br></br>
                         <br></br>
                         <br></br>
+                        <div className = "textContainer">
+                            About Me:
+                            <br></br>
+                            <br></br>
                         <CommentText content = {props.message}></CommentText>
+                        </div>
                         <div></div>
                         <br></br>
-                        <img src={img} alt="FirstWebsite"></img>
+                       
                     </p>
                     <p >
-                        welcome!
                     </p>
                    
               </div>
@@ -42,4 +46,4 @@ function Home(props){
 
 
 
-export default Home
+export default AboutMe

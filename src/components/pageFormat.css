@@ -1,4 +1,4 @@
-.page1{
+.slider{
 
 
 height: 80vh;
@@ -34,6 +34,13 @@ font-size: 4vh;
     right: 0;
 
   }
+  .textContainer{
+    margin:auto;
+
+    width: 55vh;
+    height: 15vh;
+  }
+
 
   .slider1{
     height: 150vh;
@@ -42,3 +49,8 @@ font-size: 4vh;
     overflow: hidden;
     right: 0;
   }
+
+  aboutMe{
+    background-color: rgb(37, 97, 77);
+   }
+ 

@@ -15,10 +15,10 @@ function Home(props){
         <div
 
         style = {{backgroundColor: props.color}}
-        className = "container"
+    
         >
               {props.children}
-              <div className = "page1 rel">
+              <div className = "slider rel">
 
                         <p >
                         <br></br>
@@ -30,7 +30,7 @@ function Home(props){
                         <img src={img} alt="FirstWebsite"></img>
                     </p>
                     <p >
-                        welcome!
+                        welcome1!
                     </p>
                    
               </div>
