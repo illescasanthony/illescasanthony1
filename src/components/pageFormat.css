@@ -1,0 +1,44 @@
+.page1{
+
+
+height: 80vh;
+/* background-color: rgb(39, 41, 43); */
+top: 0cm;
+overflow: hidden;
+right: 0;
+margin: auto;
+font-size: 4vh;
+}
+.container{
+    /* float: left; */
+    position: absolute;
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    top: 0px;;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    scroll-snap-type: y mandatory;
+  }
+
+.rel {
+    position: relative;
+    height: 980px;
+    background-color: rgb(39, 41, 43);
+    width: 100%;
+    top:0cm;
+    left: 0;
+    right: 0;
+
+  }
+
+  .slider1{
+    height: 150vh;
+    background-color: rgb(63, 104, 138);
+    top: 0cm;
+    overflow: hidden;
+    right: 0;
+  }
